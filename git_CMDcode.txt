@@ -1,0 +1,69 @@
+
+cd 路径  //cd E:\git_sdyan
+E:
+
+git  init //初始化本地仓库
+
+git核心框架三部分：
+工作目录：本地仓库
+暂存区域：
+git仓库：
+
+
+git add 文件名            //添加文件到暂存区域
+git commit -m "注释信息"  //把暂存区域文件添加到git仓库
+
+
+git log //查看git日志  查看每一次提交  //版本ID  邮箱 时间
+git status //查看git状态
+
+
+git淘宝    //搜索git淘宝，可以查看git安装包镜像
+
+git config --list   //查看列表信息
+
+git config --global user.name "用户名"    //设置用户名
+git config --global user.email "邮箱"   //设置邮箱
+
+
+git restore  tt.ty  //
+git restore --staged tt.ty  //
+
+
+git reset 指定版本            //将git仓库与暂存区域回滚到指定版本，并未修改本地目录
+git reset --soft 指定版本     //只是将你的git仓库内容，回滚到指定版本
+git reset --hard 指定版本     //将本地 暂存 git仓库 都回滚到指定版本
+
+
+版本表示：HEAD 
+git reset HEAD~1  //回滚带上一个版本
+git reset HEAD~2  //回滚带上上个版本
+
+
+git mv 旧文件名 新文件名   //重命名文件
+
+git rm 文件名  //删除文件
+
+
+git restore --stage 文件名  //
+git restore 文件名          //
+
+
+git branch 分支名     //创建分支
+git branch -a         //
+
+git checkout 分支名  //切换分支
+
+git log --oneline --decarate --graph --all  //简略版log
+
+git merge 分支名  //合并分支
+ 
+
+
+
+
+
+
+
+
+
