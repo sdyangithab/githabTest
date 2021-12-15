@@ -54,7 +54,7 @@ git branch -a         //
 
 git checkout 分支名  //切换分支
 
-git log --oneline --decarate --graph --all  //简略版log
+git log --oneline --decorate --graph --all  //简略版log
 
 git merge 分支名  //合并分支
  
